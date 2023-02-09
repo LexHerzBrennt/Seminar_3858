@@ -16,7 +16,7 @@ def zadacha_4(a, b, c):
         if lst[i] > lst[i + 1]:
             lst[i], lst[i + 1] = lst[i + 1], lst[i]
 
-    return print(f'max = {lst[-1]}')
+    return print('max =', lst[-1])
 
 def zadacha_6(a):
     print('Zadacha 6:', end=' ')
